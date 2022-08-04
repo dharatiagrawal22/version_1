@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url('./tic-tac.jpg');
+}
+h1{
+    text-align: center;
+    background-color: tomato;
+    color: bisque;
+    border: 4px dotted rgb(37, 35, 35);
+}
+#main{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(116, 73, 73);
+}
+.child{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#child-1{
+   color: rgb(29, 226, 236);
+   font-size: 50px;
+   text-align: center;
+   padding-top: 15px;
+}
+#child-2{
+    color:rgb(102, 207, 137);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+#child-3{
+    color: rgb(29, 226, 236);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+#child-4{
+    color: rgb(102, 207, 137);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+#child-5{
+    color: rgb(29, 226, 236);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+#child-6{
+    color: rgb(102, 207, 137);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+#child-7{
+    color:rgb(29, 226, 236) ;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+#child-8{
+    color:rgb(153, 209, 100) ;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+#child-9{
+    color: rgb(29, 226, 236);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+#winner{
+   text-align: center;
+   color: rgb(25, 216, 105);
+   font-size: 30px;
+   font-weight: bolder;
+   text-decoration:underline;
+   margin-bottom: 3px;
+}
+#play{
+    background-color: peru;
+    color: black;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 2px;
+    margin-left: 37rem;
+    }
+    #play:hover{
+      background-color: orangered;
+    }
+@media screen and (max-width:500px){
+    #play{
+        margin-left: 6rem;
+    }
+}
+@media screen and (min-width:500px) and (max-width:700px){
+    #play{
+        margin-left: 10rem;
+    }
+}
+@media screen and (min-width:700px) and (max-width:1000px){
+    #play{
+        margin-left: 20rem;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1300px){
+    #play{
+        margin-left: 30rem;
+    }
+}
